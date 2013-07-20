@@ -1,0 +1,57 @@
+body {
+	font-size:16px;
+}
+
+.filler_20 {
+	height:20px;
+}
+.db_schema {
+	display:none;
+}
+
+.compare_log {
+	padding:20px;
+	border:1px solid #ccc;
+}
+.error {
+	color:#f00;
+	font-weight:bold;
+	font-size:1.2em;
+	border:1px solid #f00;
+	padding:5px;
+}
+
+.db_title {
+	font-size:1em;
+	font-weight:bold;
+	line-height:1em;
+	margin:5px 0;
+}
+
+.db_settings {
+	height:30px;
+	background:#fff;
+	border:1px solid #ccc;
+	margin:0 0 15px 0;
+	padding:10px;
+}
+
+.local_dbs {
+	height:150px;
+	overflow-y:auto;
+}
+.compare_container {
+	display:none;
+}
+
+.local_db {
+	cursor: move;
+}
+
+.dropped_db{
+	cursor:default;
+}
+
+.btn_add_database {
+	display:none;
+}
