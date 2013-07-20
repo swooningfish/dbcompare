@@ -1,7 +1,7 @@
 dbcompare
 =========
 
-Database Compare / Diff tool 
+MySQL Database Compare / Diff tool 
 
 PHP and MySQL Database comparson tool. 
 
