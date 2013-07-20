@@ -22,5 +22,4 @@ dwsync.xml
 .hg
 !.gitignore
 .project
-.project
-
+.PHPEditProject
