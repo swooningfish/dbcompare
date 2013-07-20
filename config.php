@@ -1,28 +1,25 @@
 <?php
 
-/**
- * This file should contain the configuration of databases.
- * 
- * $dbs_config is an array of database configurations. Each element of the
- * array should provide details for a database which will be selectable from
- * a list.
- * 
- * This is arguably more secure and convenient than submitting database
- * details with an HTML form (and sending them over an unsecured channel).
- * 
- * Refer to the 'Demo Configuration' below for reference.
- */
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 
-$dbs_config = array(
-	// array(
-	// 	'name' => 'Demo Configuration',
-	// 	'config' => array(
-	// 		'host'		=> 'localhost',
-	// 		'user'		=> 'db_user',
-	// 		'password'	=> 'db_password',
-	// 		'name'		=> 'db_name'
-	// 	)
-	// ),
+$global_db_config = array(
+ 		'host'		=> 'localhost',		// The servers ip address or hostname
+ 		'user'		=> 'admin',			// The servers database username (strongly advise against using root)
+ 		'password'	=> 'password',		// The servers database password
+
+ 		'exclude_databaes' => array(	// Any databases you wish to exclude
+			'mysql',
+			'information_schema',
+		),
+
+		'use_includes' => 0,			// Set to 1 to only show the includes database
+										// Set to 0 to all databases except thoese specified in the exclude_databaes array.
+
+		'include_databaes' => array(	// Any databases you only show (need the use_includes set to 1
+			'db-test_compare1',
+			'db-test_compare2',
+		)
+
 );
-
 ?>
