@@ -1,0 +1,26 @@
+#ignore thumbnails created by windows
+Thumbs.db
+
+#ignore eclipse project files
+.buildpath
+.project
+.settings/
+
+#ignore php error logs
+errors.log
+php_errors.log
+
+#ignore the backup 'orig' files produced by kdiff
+*.orig
+
+#misc
+.DS_Store?
+ehthumbs.db
+_notes
+dwsync.xml
+.svn
+.hg
+!.gitignore
+.project
+.project
+
