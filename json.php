@@ -7,6 +7,12 @@
  *
  * @author Greg Colley
  */
+if (!file_exists('config.php')) {
+	$json_data = (array('error'=>'Error - Please check config.php or copy from config.sample.php','success'=>0));
+	echo json_encode($json_data);
+	die();
+}
+
 require('config.php');
 
 // Override the config settings for suppressing errors
