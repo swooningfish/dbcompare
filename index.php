@@ -100,10 +100,15 @@
 						</div>
 					</div>
 				</div>
+				<div class="row">
+					<div class="span12">
+						Database Compare <a href="https://github.com/swooingfish/dbcompare">https://github.com/swooingfish/dbcompare</a>
+					</div>
+				</div>
 
 			</div>
 		</div>
-
+		
 		<div id="dialog"></div>
 	</body>
 </html>
