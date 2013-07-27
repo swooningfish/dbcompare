@@ -23,3 +23,4 @@ dwsync.xml
 !.gitignore
 .project
 *.PHPEditProject
+config.php
